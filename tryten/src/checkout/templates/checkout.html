@@ -1,0 +1,81 @@
+{% extends 'base.html' %}
+
+{% block script %}
+<script type="text/javascript">
+	Stripe.setpublishableKey('{{ publishKey }}');
+	fuction stripeResponseHandler(status, response) {
+		//grab the form
+	var $form = $('#payment-form');
+
+	if (response.error){// problem;
+			// show the errors on the form;
+		$form.find('.payment-errors').text(response.error.message);
+		$form.find('.submit').prop('disabled', false);// re-enable submission
+	}   else { //token was created
+
+			// get token ID
+	    var token = response.id;
+		$form.append($('<input type="hidden" name="stripetoken">').val(token));
+
+			//submit the form:
+
+		$form.gt(0).submit();
+		}
+	};
+</script>
+
+{% endblock %}
+{% block jquery %}
+
+$(function(){
+	var $form = $('#payment-form');
+	$form.submit(function(event){
+	 // Disable the submit button to prevent repeated clicks:
+	 $form.find('.submit').prop('disabled', true);
+
+	 // Request a token from stripe:
+	 Stripe.card.createToken($form. stripeResponseHandler);
+
+	 //prevnt the form from being submitted:
+	 return false;
+
+	});
+});
+
+{% endblock %}
+
+{% block content %}
+<div class = 'row'>
+<div class="col-sm-6 col-sm-offset-3">
+
+<form class="form" action="" method="post" id="payment-form">{% csrf_token %}
+ <span class="payment-errors"></span>
+
+ <div class="form-row">
+  <label>
+  	<span> Card Number</span>
+  	<input class= 'form-control'type="text" size="20" data-stripe="number">
+  </label>
+  </div>
+
+  <div class="form-row">
+  <label>
+  	<span> Expirition (MM/YY)</span>
+  	<input type="text" size="2" data-stripe="exp_month">
+  </label>
+  <span> / </span>
+  <input type="text" size="2" data-stripe="exp_year">
+  </div>
+
+<div class="form-row">
+  <label>
+  	<span> CVC </span>
+  	<input type="text" size="4" data-stripe="cvc">
+  </label>
+  </div>
+  <input class= 'btn btn-success'type="Submit" class="Submit" value="Submit Payment">
+  </form>
+  </div>
+  </div>
+
+{% endblock %}

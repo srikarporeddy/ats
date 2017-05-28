@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block styles %}
+<style>
+	.jumbotron {
+		text-align: center;
+	}
+</style>>
+{% endblock %}
+
+
+{% block jumbotron %}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>ATS overview</h1>
+        <p>Many people apply for jobs online these days -as numbers increases, it becomes more and more challenging to maintain the work flow of the recruiting process for the company offering these jobs. An Applicant Tracking System is a module that keeps track of the process of on boarding the applicants in to a firm. We are planning to design an ATS from the ground-up that can perform tasks such as: Maintain Applicant Database, search resumes, find the right applicant for a position based the no of matches in their skill set to the job requirements and keep the track of the dates for various events involved. .</p>
+      </div>
+
+{% endblock %}
+
+
+
+
+{% block content %}
+<div class="row">
+        <div class="col-md-4">
+          <h2>Project Deliverables</h2>
+          <p>This project at the end of its life cycle  will provide an Applicant Tracking Software that will help professionals in the field of recruiting to do their jobs in a managed and structured way than they do at the moment. The project will have three main interfaces for respective end users followed by various sub screens for different functionality inside of those. The main end users of the software will be </p>
+          </div>
+        <div class="col-md-4">
+
+		<a href="#"><img src="{% static 'img/138108046.jpg' %}" class='img-responsive'/></a>
+       </div>
+        <div class="col-md-4">
+        {% if request.user.is_authenticated %}
+        <h3> Hello {{request.user}}</h3>
+        {% else %}
+        <form class="login" method="POST" action="{%  url 'account_login' %}">
+        
+        
+  		{% csrf_token %}
+
+<div id="div_id_login" class="form-group"> <label for="id_login" class="control-label  requiredField">
+                Login<span class="asteriskField">*</span> </label> <div class="controls "> <input autofocus="autofocus" class="textinput textInput form-control" id="id_login" name="login" placeholder="Username or e-mail" type="text" required="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" autocomplete="off"> </div> </div> <div id="div_id_password" class="form-group"> <label for="id_password" class="control-label  requiredField">
+                Password<span class="asteriskField">*</span> </label> <div class="controls "> <input class="textinput textInput form-control" id="id_password" name="password" placeholder="Password" type="password" required="" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAASCAYAAABSO15qAAAAAXNSR0IArs4c6QAAAPhJREFUOBHlU70KgzAQPlMhEvoQTg6OPoOjT+JWOnRqkUKHgqWP4OQbOPokTk6OTkVULNSLVc62oJmbIdzd95NcuGjX2/3YVI/Ts+t0WLE2ut5xsQ0O+90F6UxFjAI8qNcEGONia08e6MNONYwCS7EQAizLmtGUDEzTBNd1fxsYhjEBnHPQNG3KKTYV34F8ec/zwHEciOMYyrIE3/ehKAqIoggo9inGXKmFXwbyBkmSQJqmUNe15IRhCG3byphitm1/eUzDM4qR0TTNjEixGdAnSi3keS5vSk2UDKqqgizLqB4YzvassiKhGtZ/jDMtLOnHz7TE+yf8BaDZXA509yeBAAAAAElFTkSuQmCC&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;" autocomplete="off"> </div> </div> <div class="form-group"> <div id="div_id_remember" class="checkbox"> <label for="id_remember" class=""> <input class="checkboxinput" id="id_remember" name="remember" type="checkbox">
+                    Remember Me
+                </label> </div> </div>
+
+  
+  <a class="btn btn-link button secondaryAction" href="{% url 'account_reset_password' %}">Forgot Password?</a>
+  <a class="btn btn-link button secondaryAction" href="{%  url 'account_signup' %}">Signup</a>
+  <button class=" btn btn-default primaryAction" type="submit">Sign In</button>
+</form>
+{% endif %}
+        </div>
+      </div>
+{% endblock %}
+

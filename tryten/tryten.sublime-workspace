@@ -1,0 +1,665 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"n",
+				"new_stripe_id"
+			],
+			[
+				"u",
+				"user_stripe_account"
+			],
+			[
+				"us",
+				"user_stripe_account"
+			],
+			[
+				"p",
+				"profilecallback"
+			],
+			[
+				"use",
+				"username"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"s",
+				"stripe_id"
+			],
+			[
+				"st",
+				"stripe"
+			],
+			[
+				"t",
+				"token"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"pay",
+				"payment-errors"
+			],
+			[
+				"AC",
+				"ACCOUNT_LOGOUT_ON_GET"
+			],
+			[
+				"co",
+				"confirm_message"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"c",
+				"contact"
+			],
+			[
+				"em",
+				"emailTo"
+			],
+			[
+				"e",
+				"emailFrom"
+			],
+			[
+				"EMI",
+				"EMAIL_HOST"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"b",
+				"body\tTag"
+			],
+			[
+				"ur",
+				"urlpatterns"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"pr",
+				"profileAdmin"
+			],
+			[
+				"__",
+				"__doc__"
+			],
+			[
+				"tu",
+				"tuple"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"ver",
+				"version_info"
+			],
+			[
+				"get",
+				"get_num"
+			],
+			[
+				"com",
+				"combs"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"d",
+				"data"
+			],
+			[
+				"a",
+				"addr"
+			],
+			[
+				"import",
+				"import_data"
+			],
+			[
+				"at",
+				"attendee_data"
+			],
+			[
+				"l",
+				"landscape"
+			],
+			[
+				"pdf",
+				"pdf_file_name"
+			],
+			[
+				"cs",
+				"class\tNew Class"
+			],
+			[
+				"data",
+				"data_file"
+			],
+			[
+				"create",
+				"create_api_key"
+			],
+			[
+				"C",
+				"CharField"
+			],
+			[
+				"Loca",
+				"Location"
+			],
+			[
+				"_",
+				"_number"
+			],
+			[
+				"i",
+				"Interval"
+			],
+			[
+				"ma",
+				"maxlen"
+			],
+			[
+				"f",
+				"final"
+			],
+			[
+				"net",
+				"netAmount"
+			],
+			[
+				"ne",
+				"netAmount"
+			],
+			[
+				"w",
+				"word"
+			],
+			[
+				"P",
+				"POST"
+			],
+			[
+				"post_de",
+				"post_delete"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"m",
+				"max_length"
+			],
+			[
+				"D",
+				"DateTimeField"
+			],
+			[
+				"wor",
+				"words"
+			],
+			[
+				"r",
+				"row"
+			],
+			[
+				"du",
+				"dup_items"
+			],
+			[
+				"num",
+				"numlist"
+			],
+			[
+				"reu",
+				"return"
+			],
+			[
+				"ag",
+				"ages"
+			],
+			[
+				"cur",
+				"current_age"
+			],
+			[
+				"frie",
+				"friends"
+			],
+			[
+				"perso",
+				"Person"
+			],
+			[
+				"sh",
+				"show_all_friends"
+			],
+			[
+				"fri",
+				"friend"
+			],
+			[
+				"fr",
+				"friends"
+			],
+			[
+				"New",
+				"NewEmailadress"
+			],
+			[
+				"the",
+				"theEmail"
+			],
+			[
+				"th",
+				"thePhone"
+			],
+			[
+				"de",
+				"deck"
+			],
+			[
+				"cl",
+				"clearBut"
+			],
+			[
+				"sr",
+				"storeObj"
+			],
+			[
+				"al",
+				"album"
+			],
+			[
+				"Htt",
+				"HttpResponse"
+			],
+			[
+				"ar",
+				"arg1"
+			],
+			[
+				"W",
+				"w"
+			],
+			[
+				"my",
+				"myString"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/tryTen/settings.py",
+			"settings":
+			{
+				"buffer_size": 5216,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/srikar/Desktop/tryten",
+		"/C/Users/srikar/Desktop/tryten/tryten",
+		"/C/Users/srikar/Desktop/tryten/tryten/src",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/checkout",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/checkout/templates",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/templates",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/templates/account",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/tryTen"
+	],
+	"file_history":
+	[
+		"/C/Users/srikar/Desktop/tryten/tryten/static/static/css/main.css",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/checkout/views.py",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/tryTen/settings.py",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/templates/home.html",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/templates/about.html",
+		"/C/Users/srikar/Desktop/documentation.html",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/templates/navbar.html",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/templates/base.html",
+		"/C/Users/srikar/Desktop/tryten/tryten/static/static/img/images.jpeg",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/contact/forms.py",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/checkout/templates/checkout.html",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/admin.py",
+		"/C/Users/srikar/Desktop/indent.py",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/models.py",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/tryTen/urls.py",
+		"/C/Users/srikar/Desktop/documentation ATS",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/templates/profile.html",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/views.py",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/templates/account/signup.html",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/templates/account/logout.html",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/profiles/templates/account/login.html",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/contact/templates/contact.html",
+		"/C/Users/srikar/Desktop/tryten/tryten/src/contact/views.py",
+		"/C/Users/srikar/Desktop/github/day1/basic1.py",
+		"/C/Users/srikar/Desktop/github/day1/interactive_ex_1.py",
+		"/C/Users/srikar/Desktop/github/day1/exce_1.py",
+		"/C/Users/srikar/Desktop/github/day1/interactive_ex1.py",
+		"/C/Users/srikar/Desktop/python/GIT/python-revision-master/language_programs/00_syllabus.txt",
+		"/C/Users/srikar/Desktop/python/CMD/test.py",
+		"/C/Users/srikar/Desktop/python/CMD/tools.py",
+		"/C/Users/srikar/Downloads/codetest.py",
+		"/C/Users/srikar/Desktop/python/CMD/tcpclient.py",
+		"/C/Users/srikar/Desktop/python/CMD/iter.py",
+		"/C/Users/srikar/Desktop/python/CMD/tcpserver.py",
+		"/C/Users/srikar/Desktop/python/practice/boston_name.py",
+		"/C/Users/srikar/Desktop/python/codeabbey/sum.py",
+		"/C/Users/srikar/Desktop/python/codeabbey/sums.py",
+		"/C/Users/srikar/Desktop/python/codeabbey/codetest.py",
+		"/C/Users/srikar/Desktop/python/Parking_excercise/parkinglot/longitude_parking/models.py",
+		"/C/Users/srikar/Desktop/python/pdf/datas.csv",
+		"/C/Users/srikar/Desktop/python/pdf/data.csv",
+		"/C/Users/srikar/Desktop/python/pdf/main.py",
+		"/C/Users/srikar/Desktop/python/pdf/Mainpdf.py",
+		"/C/Users/srikar/Desktop/landing/ideas/idea/src/ideas/base.py",
+		"/C/Users/srikar/Desktop/landing/ideas/idea/src/live-static/media-root/blank.txt",
+		"/C/Users/srikar/Desktop/landing/ideas/idea/src/.gitignore",
+		"/C/Users/srikar/Desktop/landing/ideas/idea/src/ideas/settings/base.py",
+		"/C/Users/srikar/Desktop/landing/ideas/idea/src/ideas/settings/local.py",
+		"/C/Users/srikar/Desktop/landing/ideas/idea/src/ideas/settings/production.py",
+		"/C/Users/srikar/Desktop/landing/ideas/idea/Lib/site-packages/gunicorn/util.py",
+		"/C/Users/srikar/Desktop/landing/ideas/idea/Lib/site-packages/gunicorn/app/base.py",
+		"/C/Users/srikar/Desktop/ideas/Idea-Landing-master/ideas/settings/__init__.py",
+		"/C/Users/srikar/Desktop/linga/first.py",
+		"/C/Users/srikar/Desktop/linga/wheather.py",
+		"/C/Users/srikar/Desktop/linga/test.py",
+		"/C/Users/srikar/Desktop/naren/chess.py",
+		"/C/Users/srikar/Desktop/naren/urban_tastes/services/admin.py",
+		"/C/Users/srikar/Desktop/naren/urban_tastes/urban_tastes/wsgi.py",
+		"/C/Users/srikar/Desktop/naren/urban_tastes/services/urls.py",
+		"/C/Users/srikar/Desktop/naren/urban_tastes/services/models.py",
+		"/C/Users/srikar/Desktop/naren/urban_tastes/services/api.py",
+		"/C/Users/srikar/Desktop/naren/urban_tastes/services/__init__.py",
+		"/C/Users/srikar/Desktop/naren/urban_tastes/urban_tastes/urls.py",
+		"/C/Users/srikar/Desktop/naren/urban_tastes/urban_tastes/settings.py",
+		"/C/Users/srikar/Desktop/naren/urban_tastes/urban_tastes/__init__.py",
+		"/C/Users/srikar/Desktop/naren/urban_tastes/services/apps.py",
+		"/C/Users/srikar/Desktop/longitude/parkinglot/longitude_parking/models.py",
+		"/C/Users/srikar/Desktop/longitude/parkinglot/parkinglot/urls.py",
+		"/C/Users/srikar/Desktop/ridecell/parking/api/urls.py",
+		"/C/Users/srikar/Desktop/ridecell/parking/api/views.py",
+		"/C/Users/srikar/Desktop/ridecell/parking/parking/settings.py",
+		"/C/Users/srikar/Desktop/ridecell/parking/parking/urls.py",
+		"/C/Users/srikar/Desktop/ridecell/parking/api/admin.py",
+		"/C/Users/srikar/Desktop/ridecell/parking/api/models.py",
+		"/C/Users/srikar/Desktop/ridecell/garage.py",
+		"/C/Users/srikar/Desktop/ridecell/parking/api/serializer.py",
+		"/F/python/algorithms-master/array/airtravel.py",
+		"/F/python/Algorithm/merge.py",
+		"/F/python/Algorithm/longrepeat.py",
+		"/F/python/Algorithm/garage.py",
+		"/F/python/Algorithm/flatten.py",
+		"/F/python/Algorithm/circular_counter.py",
+		"/F/python/Excercise/bowl.py",
+		"/F/python/Excercise/Ex_square.py",
+		"/F/python/practice/Ex_frequency.py",
+		"/F/python/Excercise/Ex_robo.py",
+		"/F/python/Excercise/Ex_classes.py",
+		"/F/python/Excercise/Ex_sort.py",
+		"/F/python/Excercise/Ex_website.py",
+		"/F/python/Excercise/Ex_bank.py",
+		"/F/python/Excercise/eX_15.PY",
+		"/F/python/practice/EX_listcomprehension.py",
+		"/F/python/Excercise/Ex_digits.py",
+		"/F/python/Excercise/Ex_upper.py",
+		"/C/Users/srikar/Desktop/python/json.py",
+		"/C/Users/srikar/Desktop/python/tic.py",
+		"/C/Users/srikar/Desktop/python/try/Ideas/src/ideas/ideas/settings/production.py",
+		"/C/Users/srikar/Desktop/python/try/Ideas/src/ideas/requirements.txt",
+		"/C/Users/srikar/Desktop/python/try/Ideas/src/ideas/procfile",
+		"/C/Users/srikar/Desktop/python/try/Ideas/src/ideas/.gitignore",
+		"/C/Users/srikar/Desktop/python/try/Ideas/src/ideas/ideas/settings/__init__.py",
+		"/C/Users/srikar/Desktop/python/try/Ideas/src/ideas/ideas/settings.py",
+		"/C/Users/srikar/Desktop/python/try/trydjango/templates/index.html",
+		"/C/Users/srikar/Desktop/python/try/trydjango/posts/forms.py",
+		"/C/Users/srikar/Desktop/python/try/trydjango/templates/post_form.html",
+		"/C/Users/srikar/Desktop/python/try/trydjango/posts/views.py",
+		"/C/Users/srikar/Desktop/python/try/trydjango/posts/urls.py",
+		"/C/Users/srikar/Desktop/python/try/trydjango/posts/models.py",
+		"/C/Users/srikar/Desktop/python/try/trydjango/trydjango/urls.py",
+		"/C/Users/srikar/Desktop/python/try/trydjango/templates/post_detail.html",
+		"/C/Users/srikar/Desktop/python/try/trydjango/trydjango/settings.py",
+		"/C/Users/srikar/Desktop/python/cms/cms/urls.py",
+		"/C/Users/srikar/Desktop/python/try/trydjango/posts/admin.py",
+		"/C/Users/srikar/Desktop/python/try/trydjango/trydjango/crud.md",
+		"/C/Users/srikar/Desktop/python/IDEA/idea/src/requirements.txt",
+		"/C/Users/srikar/Desktop/python/IDEA/idea/src/ideas/settings/base.py",
+		"/C/Users/srikar/Desktop/python/IDEA/idea/src/ideas/settings/production.py",
+		"/C/Users/srikar/Desktop/python/IDEA/idea/src/Procfile",
+		"/C/Users/srikar/Desktop/python/IDEA/idea/src/ideas/settings/local.py",
+		"/C/Users/srikar/Desktop/python/IDEA/idea/src/runtime.txt",
+		"/C/Users/srikar/Desktop/ideas/Idea-Landing-master/ideas/settings/production.py",
+		"/C/Users/srikar/Desktop/python/ideas/src/ideas/ideas/settings.py",
+		"/C/Users/srikar/Desktop/python/ideas/src/ideas/.gitignore",
+		"/C/Users/srikar/Desktop/python/ideas/src/ideas/ideas/settings/__init__.py",
+		"/C/Users/srikar/Desktop/python/ideas/src/ideas/ideas/__init__.py",
+		"/C/Users/srikar/Desktop/python/ideas/src/ideas/ideas/settings/production.py",
+		"/C/Users/srikar/Desktop/python/pada.py",
+		"/C/Users/srikar/Desktop/python/cms/blog/templates/blog/post/list_of_post.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"auth_user",
+			"obj",
+			"STATIC_root",
+			"person"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/tryTen/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5216,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								572,
+								572
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 28.0
+	},
+	"pinned_build_system": "",
+	"project": "tryten.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 157.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
